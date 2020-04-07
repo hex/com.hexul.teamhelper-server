@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "user": "hex",
+      "id": "CFA55E2D-0061-54D3-BE20-A440A6993298",
+      "onScene": true,
+      "isOnline": true,
+      "lockedAsset": "Assets/Editor/TeamHelper/JSONParser.cs"
+    },
+    {
+      "user": "3423432432",
+      "id": "234342342423",
+      "onScene": false,
+      "isOnline": true,
+      "lockedAsset": ""
+    },
+    {
+      "user": "ystemInfo.deviceName",
+      "id": "SystemInfo.deviceUniqueIdentifier",
+      "onScene": false,
+      "isOnline": true,
+      "lockedAsset": ""
+    }
+  ]
+}

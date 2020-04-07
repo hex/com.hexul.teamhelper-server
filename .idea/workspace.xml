@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d82f173c-8773-4cfe-af2c-c3e085b16512" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1a2d1kAqOqqwf9ZDzo8hxuuDWyk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.8.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="/usr/local/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d82f173c-8773-4cfe-af2c-c3e085b16512" name="Default Changelist" comment="" />
+      <created>1585937409874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585937409874</updated>
+      <workItem from="1585937411775" duration="1746000" />
+      <workItem from="1586036478192" duration="1741000" />
+      <workItem from="1586154667950" duration="8823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="878" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586158556143">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="878" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158556143" />
+    <state x="1201" y="352" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585937515954">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="1201" y="352" key="#com.intellij.ide.macro.MacrosDialog/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1585937515954" />
+    <state x="704" y="338" key="#start" timestamp="1586155375119">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="704" y="338" key="#start/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586155375119" />
+    <state x="1171" y="518" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585937678766">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="1171" y="518" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1585937678766" />
+    <state width="1051" height="466" key="DebuggerActiveHint" timestamp="1586036943023">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="1051" height="466" key="DebuggerActiveHint/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586036943023" />
+    <state x="1201" y="402" key="FileChooserDialogImpl" timestamp="1586158539323">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="1201" y="402" key="FileChooserDialogImpl/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158539323" />
+    <state width="2027" height="454" key="GridCell.Tab.0.bottom" timestamp="1586158780306">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.0.bottom/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780306" />
+    <state width="2027" height="454" key="GridCell.Tab.0.center" timestamp="1586158780305">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.0.center/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780305" />
+    <state width="2027" height="454" key="GridCell.Tab.0.left" timestamp="1586158780304">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.0.left/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780304" />
+    <state width="2027" height="454" key="GridCell.Tab.0.right" timestamp="1586158780305">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.0.right/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780305" />
+    <state width="2027" height="454" key="GridCell.Tab.1.bottom" timestamp="1586158780308">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.1.bottom/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780308" />
+    <state width="2027" height="454" key="GridCell.Tab.1.center" timestamp="1586158780307">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.1.center/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780307" />
+    <state width="2027" height="454" key="GridCell.Tab.1.left" timestamp="1586158780306">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.1.left/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780306" />
+    <state width="2027" height="454" key="GridCell.Tab.1.right" timestamp="1586158780307">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.1.right/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780307" />
+    <state width="2027" height="454" key="GridCell.Tab.2.bottom" timestamp="1586158780309">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.2.bottom/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780309" />
+    <state width="2027" height="454" key="GridCell.Tab.2.center" timestamp="1586158780309">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.2.center/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780309" />
+    <state width="2027" height="454" key="GridCell.Tab.2.left" timestamp="1586158780308">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.2.left/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780308" />
+    <state width="2027" height="454" key="GridCell.Tab.2.right" timestamp="1586158780309">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.2.right/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780309" />
+    <state width="2027" height="454" key="GridCell.Tab.3.bottom" timestamp="1586158780311">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.3.bottom/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780311" />
+    <state width="2027" height="454" key="GridCell.Tab.3.center" timestamp="1586158780310">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.3.center/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780310" />
+    <state width="2027" height="454" key="GridCell.Tab.3.left" timestamp="1586158780310">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.3.left/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780310" />
+    <state width="2027" height="454" key="GridCell.Tab.3.right" timestamp="1586158780311">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2027" height="454" key="GridCell.Tab.3.right/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158780311" />
+    <state width="500" height="400" key="SwitcherDM" timestamp="1586185788968">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="500" height="400" key="SwitcherDM/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586185788968" />
+    <state x="1138" y="455" key="jetbrains.nodejs.interpreters-dialog" timestamp="1586158540438">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="1138" y="455" key="jetbrains.nodejs.interpreters-dialog/2048.-378.3440.1440/0.0.2048.1280@0.0.2048.1280" timestamp="1586158540438" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="js.build_tools.npm">
+        <watch expression="Array.from(wss.clients)" language="JavaScript" />
+        <watch expression="dbUsers" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
