@@ -235,6 +235,6 @@ function updateClients(ws) {
   });
 }
 
-server.listen(8080, function () {
-  console.log('Listening on http://localhost:8080');
+server.listen(6666, function () {
+  console.log('Listening on http://localhost:6666');
 });
