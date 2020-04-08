@@ -38,6 +38,7 @@ wss.on('connection', function (ws, req) {
   ws.clientName = parameters.query.clientName;
   ws.channel = parameters.query.channel;
   ws.lockedAsset = "";
+  ws.hasSceneRequest = false;
   ws.isAlive = true;
   ws.on('pong', heartbeat);
 
@@ -56,7 +57,8 @@ wss.on('connection', function (ws, req) {
       id: ws.clientId,
       onScene: false,
       isOnline: true,
-      lockedAsset: ""
+      lockedAsset: "",
+      hasSceneRequest: false
     }).write().id;
   } else {
     users.find({
@@ -94,9 +96,6 @@ wss.on('connection', function (ws, req) {
 
   ws.on('close', function () {
     console.log("Client " + ws.clientName + " left.");
-    // users.remove({
-    //   id: ws.clientId
-    // }).write();
     users.find({
       id: ws.clientId
     }).assign({
@@ -167,21 +166,39 @@ function checkSceneStatus(ws) {
           isSceneFree = true;
         } else {
           isSceneFree = false;
+
+          const sceneRequestStatus = users.find({
+            id: ws.clientId
+          }).value().hasSceneRequest;
+
+          ws.hasSceneRequest = sceneRequestStatus ? false : true
+          users.find({
+            id: ws.clientId
+          }).assign({
+            hasSceneRequest: ws.hasSceneRequest
+          }).write();
+
+          if(ws.hasSceneRequest)
+            client.send( JSON.stringify({requestUser: ws.clientName}));
+
         }
-        console.log("scene busy: " + client.clientName);
+        console.log("Scene locked by: " + client.clientName);
       }
     }
   });
 
   if (isSceneFree && clientOnSceneId !== ws.clientId) {
     ws.onScene = true;
+    ws.hasSceneRequest = false;
     users.find({
       id: ws.clientId
     }).assign({
-      onScene: true
+      onScene: true,
+      hasSceneRequest: false
     }).write();
   } else {
     ws.onScene = false;
+
     users.find({
       id: ws.clientId
     }).assign({
@@ -208,6 +225,9 @@ function updateClients(ws) {
             onScene: users.find({
               id: entry.clientId
             }).value().onScene,
+            hasSceneRequest: users.find({
+              id: entry.clientId
+            }).value().hasSceneRequest,
             isOnline: entry.isOnline
           })));
       client.send(clientList);
