@@ -119,7 +119,7 @@ const sceneInterval = setInterval(function ping() {
       }).write();
     }
   });
-}, 300000);
+}, 1200000);
 
 const pingInterval = setInterval(function ping() {
   wss.clients.forEach(function each(ws) {
